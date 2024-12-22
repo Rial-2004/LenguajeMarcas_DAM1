@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 12.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="alin" action="mailto:lenguajedemarcas@iescomercio.com" method="post" enctype="text/plain">
+        <h1>Recogida de informacion</h1>
+        <fieldset class="padd" style="display: flex;gap: 15px;">
+            <legend>Datos personales</legend>
+            <div>
+                <label for="nom">Nombre:</label><br><br>
+                <label for="part">Direccion:</label><br><br>
+                <label for="telf">Telefono:</label><br><br>
+            </div>
+            <div>
+                <input class="amarillo" type="text" placeholder="Nombre empresa" id="nom"><br><br>
+                <input class="amarillo" type="text" placeholder="Direccion particular" id="ape"><br><br>
+                <input class="amarillo" type="tel" placeholder="Movil" id="telf"><br><br>
+            </div>
+        </fieldset>
+        <br><br>
+        <fieldset class="colum padd">
+            <legend>Deportes: Futbol</legend>
+            <div>
+                <label class="crsi" for="equi">Elige un equipo:</label><br><br>
+                <select id="equi">
+                    <option>R.Madrid</option>
+                    <option>FC Barcelona</option>
+                    <option>Millonarios FC</option>
+                </select>
+            </div>
+            <div class="bordes" style="margin-left: 250px">
+                <label class="cursi" for="juga">Elige un jugador:</label><br><br>
+                <input type="radio" id="juga"> Messi <br>
+                <input type="radio" id="juga"> Ronaldo <br>
+                <input type="radio" id="juga"> Falcao
+            </div>
+            <div class="bordes" style="margin-left: 100px;">
+                <label class="cursi" for="afi">Otras aficiones:</label><br><br>
+                <input type="checkbox" id="afi"> Musica <br>
+                <input type="checkbox" id="afi"> Lectura <br>
+                <input type="checkbox" id="afi"> VideoJuegos
+            </div>
+        </fieldset>
+        <div style="display: flex; justify-content: center; width: 800px;padding-top: 20px;gap: 60px;">
+            <input type="submit" value="Confirmar">
+            <input type="reset" value="Anular">
+        </div>
+    </form>
+</body>
+</html>
