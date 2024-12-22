@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 12.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="alin" action="mailto:lenguajedemarcas@iescomercio.com" method="post" enctype="text/plain">
+        <h1>Recogida de informacion</h1>
+        <fieldset class="padd">
+            <legend>Datos personales</legend>
+            <label for="nom">Nombre:</label>
+            <input type="text" id="nom"><br><br>
+            <label for="ape">Apellido:</label>
+            <input type="text" id="ape"><br><br>
+            <label for="telf">Telefono:</label>
+            <input type="tel" id="telf"><br><br>
+        </fieldset>
+        <br><br>
+        <fieldset class="colum padd">
+            <legend>Deportes: Futbol</legend>
+            <div>
+                <label class="crsi" for="equi">Elige equipo:</label><br><br>
+                <select d="equi">
+                    <option>R.Madrid</option>
+                    <option>FC Barcelona</option>
+                    <option>Millonarios FC</option>
+                </select>
+            </div>
+            <div>
+                <label class="cursi" for="juga">Elige un jugador:</label><br><br>
+                <input type="radio" id="juga"> Messi <br><br>
+                <input type="radio" id="juga"> Ronaldo <br><br>
+                <input type="radio" id="juga"> Falcao <br><br>
+            </div>
+            <div>
+                <label class="cursi" for="afi">Otras aficiones:</label><br><br>
+                <input type="checkbox" id="afi"> Musica <br><br>
+                <input type="checkbox" id="afi"> Lectura <br><br>
+                <input type="checkbox" id="afi"> VideoJuegos <br><br>
+            </div>
+        </fieldset>
+        <div style="display: flex; justify-content: center; width: 800px;padding-top: 20px;gap: 10px;">
+            <input type="submit" value="Confirmar">
+            <input type="reset" value="Anular">
+        </div>
+    </form>
+</body>
+</html>
