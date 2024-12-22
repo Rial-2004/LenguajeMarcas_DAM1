@@ -1,4 +1,6 @@
-a{
-    display: inline-block;
-    text-decoration: none;
+.anc{
+    width: 600px;
+}
+#com{
+    width: 460px;
 }

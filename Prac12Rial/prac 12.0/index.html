@@ -41,5 +41,41 @@
         <input type="reset" value="Borrar">
         <input type="button" onclick="window.open('https://www.todostuslibros.com', '_self');" value=Consulta>
     </form>
+    <form action="mailto:rialmar2004@gmail.com" method="post" enctype="text/plain">
+        <h1>Preferencias</h1>
+        <label for="sigpre">Selecciona tu asignatura preferida</label>
+        <select name="lista1" id="sigpre">
+            <option>Programacion</option>
+            <option>Lenguaje de marcas</option>
+            <option>Bases de datos</option>
+            <option>FOL</option>
+        </select>
+        <br><br>
+        <label for="act">Elige actividad para el fin de semana</label>
+        <select name="lista2" id="act">
+            <optgroup label="Deportes">
+                <option>Futbol</option>
+                <option>Tenis</option>
+                <option>Correr</option>
+            </optgroup>
+            <optgroup label="Diversion">
+                <option>Discoteca</option>
+                <option>Cine</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <form class="anc" action="mailto:rialmar2004@gmail.com" method="post" enctype="text/plain">
+        <h1>Formulario</h1>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nom">Nombre</label>
+            <input type="text" id="nom"><br><br>
+            <label for="com">Comentarios</label>
+            <input type="text" id="com">
+        </fieldset>
+    </form>
+
 </body>
 </html>
