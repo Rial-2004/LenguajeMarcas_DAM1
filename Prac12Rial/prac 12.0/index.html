@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
 <body>
     <form action="mailto:rialmar2004@gmail.com" method="post" enctype="text/plain">
         <h1>Datos personales</h1>
@@ -25,6 +26,20 @@
         <input type="radio" id="BasesDeDatos" name="asig" value="BD">
         <label for="BasesDeDatos">Bases de datos</label><br><br>
         <input type="submit" value="Enviar">
+    </form>
+    <form action="mailto:rialmar2004@gmail.com" method="post" enctype="text/plain">
+        <h1>Libros leido</h1>
+        <input type="checkbox" id="Programacion" name="asig" value="POO">
+        <label for="Programacion">Programacion</label><br>
+        <input type="checkbox" id="LenguajeDeMarcas" name="asig" value="LM">
+        <label for="LenguajeDeMarcas">Lenguaje de marcas</label><br>
+        <input type="checkbox" id="LenguajeDeMarcas" name="asig" value="LM">
+        <label for="LenguajeDeMarcas">Lenguaje de marcas</label><br>
+        <input type="checkbox" id="BasesDeDatos" name="asig" value="BD">
+        <label for="BasesDeDatos">Bases de datos</label><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <input type="button" onclick="window.open('https://www.todostuslibros.com', '_self');" value=Consulta>
     </form>
 </body>
 </html>
