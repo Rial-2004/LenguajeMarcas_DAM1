@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 12.3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="(function(){alert('la pagina se ha cargado')})()">
+    <form  onreset="(function(){alert('Se van a borrar los datos del formulario')})()">
+        <h1>Bienvenido</h1>
+        <label for="nom">Nombre</label>
+        <input type="text" id="nom"><br><br>
+        <label for="obs">Observaciones</label>
+        <input type="text" id="obs">
+        <h1>Bienvenido</h1>
+        <label for="nom2">Nombre</label>
+        <input type="text" id="nom2" onfocus="this.classList.add('amarillo')" onblur="this.classList.remove('amarillo')"><br><br>
+        <label for="obs2">Observaciones</label>
+        <input type="text" id="obs2">
+        <h1>Bienvenido</h1>
+        <label for="nom3">Nombre</label>
+        <input type="text" id="nom3" onfocus="this.classList.add('amarillo')" onblur="this.classList.remove('amarillo')"><br><br>
+        <label for="obs3">Observaciones</label>
+        <input type="text" id="obs3" onfocus="this.classList.add('amarillo')" onblur="this.classList.remove('amarillo')">
+        <h1>Bienvenido</h1>
+        <label for="nom4">Nombre</label>
+        <input type="text" id="nom4" onfocus="this.classList.add('amarillo')" onblur="this.classList.remove('amarillo')"><br><br>
+        <label for="obs4">Observaciones</label>
+        <input type="text" id="obs4" onfocus="this.classList.add('rojo')" onblur="this.classList.remove('rojo')">
+        <br><br>
+        <input type="reset">
+    </form>
+
+    
+
+
+</body>
+</html>
