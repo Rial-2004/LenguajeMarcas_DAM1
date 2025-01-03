@@ -1,0 +1,34 @@
+body{
+    margin-top: 50px;
+}
+.forma{
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+.orden{
+    /*background-color: brown;*/
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.boton{
+    cursor: pointer;
+}
+.bombilla{
+    transform: translate(-50%, -50%);
+    margin-left: 50%;
+    margin-top: 175px;
+    width: 100%;
+    height: 275px;
+    background-image: url(img/BombillaApagada.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 12.4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="orden">
+        <div class="forma" onmouseover="this.innerHTML='Gracias!'" onmouseout="this.innerHTML='Pasa el raton'">Pasa el raton</div>
+        <div class="forma" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='blue'">Pasa el raton</div>
+        <div class="forma boton" onclick="gracias(this)">Haz click</div>
+        <div class="forma" onmousedown="this.style.backgroundColor='red'" onmouseup="this.style.backgroundColor='blue'">Pulsa el raton</div>
+        <div class="forma" id="pillame">Pillame!</div>
+    </div>
+    <div class="bombilla" onmousedown="this.style.backgroundImage='url(img/BombillaEncendida.png)'" onmouseup="this.style.backgroundImage='url(img/BombillaApagada.png)'"></div>
+    <script src="script.js"></script>
 </body>
 </html>
